@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: brain-audio
+Version: 0.1.0
+Summary: Shared TTS normalization utilities for BRAIN_OS projects
+Requires-Python: >=3.10
