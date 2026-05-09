@@ -1,12 +1,12 @@
 {
-  "replacements": {
-    "\\bxG\\b": "Expected Goals",
-    "\\bxA\\b": "Expected Assists",
-    "\\bUCL\\b": "Champions League",
-    "\\bEPL\\b": "Premier League",
-    "\\bLaLiga\\b": "La Liga",
-    "(\\d+)\\+(\\d+)'": "\\1 plus \\2 minutes",
-    "(\\d+)-(\\d+)": "\\1 to \\2",
-    "\\b(\\d+)'\\b": "\\1 minutes"
-  }
+  "replacements": [
+    {"pattern": "\\bxG\\b",              "replacement": "Expected Goals"},
+    {"pattern": "\\bxA\\b",              "replacement": "Expected Assists"},
+    {"pattern": "\\bUCL\\b",             "replacement": "Champions League"},
+    {"pattern": "\\bEPL\\b",             "replacement": "Premier League"},
+    {"pattern": "\\bLaLiga\\b",          "replacement": "La Liga"},
+    {"pattern": "(\\d+)\\+(\\d+)'",      "replacement": "\\1 plus \\2 minutes"},
+    {"pattern": "(\\d+)-(\\d+)",         "replacement": "\\1 to \\2"},
+    {"pattern": "\\b(\\d+)'\\b",         "replacement": "\\1 minutes"}
+  ]
 }

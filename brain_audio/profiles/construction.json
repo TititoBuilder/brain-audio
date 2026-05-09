@@ -1,12 +1,13 @@
 {
-  "replacements": {
-    "\\$([\\d,]+)K": "\\1 thousand dollars",
-    "\\$([\\d,]+)": "\\1 dollars",
-    "(\\d+\\.?\\d*)x\\b": "\\1 times",
-    "\\bROI\\b": "R O I",
-    "(\\d+)-day": "\\1 day",
-    "(\\d+)-week": "\\1 week",
-    "(\\d+)sq\\.?ft": "\\1 square feet",
-    "\\bsf\\b": "square feet"
-  }
+  "replacements": [
+    {"pattern": "\\$([\\d,]+\\.[\\d]+)K", "replacement": "\\1 thousand dollars"},
+    {"pattern": "\\$([\\d,]+)K",         "replacement": "\\1 thousand dollars"},
+    {"pattern": "\\$([\\d,]+)",          "replacement": "\\1 dollars"},
+    {"pattern": "(\\d+\\.?\\d*)x\\b",    "replacement": "\\1 times"},
+    {"pattern": "\\bROI\\b",             "replacement": "R O I"},
+    {"pattern": "(\\d+)-day",            "replacement": "\\1 day"},
+    {"pattern": "(\\d+)-week",           "replacement": "\\1 week"},
+    {"pattern": "(\\d+)sq\\.?ft",        "replacement": "\\1 square feet"},
+    {"pattern": "\\bsf\\b",              "replacement": "square feet"}
+  ]
 }
