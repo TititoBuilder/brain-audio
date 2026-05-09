@@ -1,0 +1,12 @@
+﻿{
+  "replacements": {
+    "\\bxG\\b": "Expected Goals",
+    "\\bxA\\b": "Expected Assists",
+    "\\bUCL\\b": "Champions League",
+    "\\bEPL\\b": "Premier League",
+    "\\bLaLiga\\b": "La Liga",
+    "(\\d+)\\+(\\d+)'": "\\1 plus \\2 minutes",
+    "(\\d+)-(\\d+)": "\\1 to \\2",
+    "\\b(\\d+)'\\b": "\\1 minutes"
+  }
+}

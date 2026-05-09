@@ -1,0 +1,12 @@
+﻿{
+  "replacements": {
+    "\\$([\\d,]+)K": "\\1 thousand dollars",
+    "\\$([\\d,]+)": "\\1 dollars",
+    "(\\d+\\.?\\d*)x\\b": "\\1 times",
+    "\\bROI\\b": "R O I",
+    "(\\d+)-day": "\\1 day",
+    "(\\d+)-week": "\\1 week",
+    "(\\d+)sq\\.?ft": "\\1 square feet",
+    "\\bsf\\b": "square feet"
+  }
+}

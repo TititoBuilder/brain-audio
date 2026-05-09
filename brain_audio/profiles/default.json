@@ -1,0 +1,9 @@
+﻿{
+  "replacements": {
+    "e\\.g\\.": "for example",
+    "i\\.e\\.": "that is",
+    "vs\\.": "versus",
+    "etc\\.": "and so on",
+    "(\\d+)%": "\\1 percent"
+  }
+}
