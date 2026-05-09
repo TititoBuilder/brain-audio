@@ -1,4 +1,4 @@
-﻿{
+{
   "replacements": {
     "\\$([\\d,]+)K": "\\1 thousand dollars",
     "\\$([\\d,]+)": "\\1 dollars",

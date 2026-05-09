@@ -1,4 +1,4 @@
-﻿{
+{
   "replacements": {
     "\\bxG\\b": "Expected Goals",
     "\\bxA\\b": "Expected Assists",
