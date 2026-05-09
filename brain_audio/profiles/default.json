@@ -1,9 +1,18 @@
 {
-  "replacements": {
-    "e\\.g\\.": "for example",
-    "i\\.e\\.": "that is",
-    "vs\\.": "versus",
-    "etc\\.": "and so on",
-    "(\\d+)%": "\\1 percent"
-  }
+  "replacements": [
+    {"pattern": "```\\w*\\n(.*?)```",           "replacement": "[Code block] \\1 [End code block]", "flags": ["DOTALL"]},
+    {"pattern": "^#{1,6}\\s+(.+)$",             "replacement": "Section: \\1",                     "flags": ["MULTILINE"]},
+    {"pattern": "\\*\\*(.+?)\\*\\*",            "replacement": "\\1"},
+    {"pattern": "\\*(.+?)\\*",                  "replacement": "\\1"},
+    {"pattern": "`([^`]+)`",                     "replacement": "\\1"},
+    {"pattern": "^>\\s*Note:\\s*\\*?(.+?)\\*?$","replacement": "\\1",                              "flags": ["MULTILINE"]},
+    {"pattern": "^>\\s*(.+)$",                  "replacement": "Note: \\1",                        "flags": ["MULTILINE"]},
+    {"pattern": "^[=]{3,}\\s*$",                "replacement": "",                                  "flags": ["MULTILINE"]},
+    {"pattern": "^[-]{3,}\\s*$",                "replacement": "",                                  "flags": ["MULTILINE"]},
+    {"pattern": "\\n{3,}",                       "replacement": "\\n\\n"},
+    {"pattern": "e\\.g\\.",                      "replacement": "for example"},
+    {"pattern": "i\\.e\\.",                      "replacement": "that is"},
+    {"pattern": "vs\\.",                         "replacement": "versus"},
+    {"pattern": "(\\d+)%",                       "replacement": "\\1 percent"}
+  ]
 }
